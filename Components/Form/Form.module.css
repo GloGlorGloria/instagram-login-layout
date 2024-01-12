@@ -1,0 +1,108 @@
+.info{
+  font-family: var(--font-family);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 13px 0 15px 0;
+}
+
+.user{
+    border-radius: 0.25rem;
+    border: 1px solid var(--instagram-border-color);
+    width:260px;
+    height: 20px;
+    border-width: 1px;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    padding:9px 0px 7px 8px;
+    margin:0px 0px 7px 0px;
+  }
+  
+  .login{
+    background-color: var(--instagram-button-color);
+    font-size:14px;
+    font-weight: 600;
+    color: white;
+    opacity: .7;
+    border-radius: 8px;
+    width: 270px;
+    height: 32px;
+    margin:8px 40px;
+    border:1px;
+    cursor: pointer;
+  }
+
+  .orbreak{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:78%;
+  }
+
+  .line{
+    width:100px;
+    border: 1px solid var(--instagram-border-color);
+    border-bottom: 0;
+    border-left:0;
+    border-right:0;
+  }
+
+  .or{
+    font-family: var(--font-family);
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    color: #737373;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    padding:10px 0px 10px;
+  }
+  
+  
+  .fblink{
+    color: #385185;
+    background-color: var(--background-color) ;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size:14px;
+    border: 0;
+    padding: 10px 0 0 0;
+    cursor:pointer;
+    pointer-events: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fblogo{
+    margin: 0px 8px 0px 0px;
+  }
+  
+  .forgotpw{
+    color: #00376B;
+    font-family: var(--font-family);
+    font-size:12px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+  }
+
+  /* Mobile */
+@media (min-width:0px) and (max-width: 450px) {
+  
+  .fblink{
+    color: #385185;
+    background-color: var(--background-color) ;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size:14px;
+    border: 0;
+    padding: 20px 0 0 0;
+    cursor:pointer;
+    pointer-events: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+  
